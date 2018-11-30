@@ -4567,11 +4567,12 @@ ember-debug-handlers-polyfill@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ember-debug-handlers-polyfill/-/ember-debug-handlers-polyfill-1.1.1.tgz#e9ae0a720271a834221179202367421b580002ef"
 
-ember-drag-drop@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/ember-drag-drop/-/ember-drag-drop-0.5.0.tgz#12e956377ffaba6cc8f220fcc656a97c8d9d7701"
+ember-drag-drop@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/ember-drag-drop/-/ember-drag-drop-0.6.2.tgz#682712bc1a0b55b6da698e4ff3077daef0d9941d"
   dependencies:
     ember-cli-babel "^6.6.0"
+    ember-jquery-legacy "^1.0.0"
 
 ember-exam@^1.0.0:
   version "1.0.0"
@@ -4678,6 +4679,12 @@ ember-invoke-action@^1.4.0:
 ember-invoke-action@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/ember-invoke-action/-/ember-invoke-action-1.5.1.tgz#b6cad51ee729fc227cdbdba83b2b5486f0fa5834"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+
+ember-jquery-legacy@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-jquery-legacy/-/ember-jquery-legacy-1.0.0.tgz#2a2a29109385dfabe4c626a3ac8d1dd3c6a4b9a3"
   dependencies:
     ember-cli-babel "^6.6.0"
 
